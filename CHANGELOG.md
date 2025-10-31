@@ -1,5 +1,21 @@
 # Changelog
 
+## [25.58.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v25.57.0...v25.58.0) (2025-10-31)
+
+
+### Features
+
+* **add:** ZTRV-ZX-TV02 ([#10595](https://github.com/Koenkk/zigbee-herdsman-converters/issues/10595)) ([2e8ff20](https://github.com/Koenkk/zigbee-herdsman-converters/commit/2e8ff20a39dbd80551a652103cf01439faf4db0d))
+* Tuya TS0601_water_meter: expose more `fault` options ([#10600](https://github.com/Koenkk/zigbee-herdsman-converters/issues/10600)) ([70c0188](https://github.com/Koenkk/zigbee-herdsman-converters/commit/70c0188733bb43a2675f0346e4b4d46330910987))
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZE284_vmcgja59` as Tuya ZYXH ([#10593](https://github.com/Koenkk/zigbee-herdsman-converters/issues/10593)) ([5b4a7f5](https://github.com/Koenkk/zigbee-herdsman-converters/commit/5b4a7f59a66ed619e2ac3330d3c50fdf312f0139))
+* **ignore:** Tuya: add some forgotten code to disable exposes function ([#10590](https://github.com/Koenkk/zigbee-herdsman-converters/issues/10590)) ([3ef8e51](https://github.com/Koenkk/zigbee-herdsman-converters/commit/3ef8e51040de2c49e5ac5a30703d5f7f17ce753c))
+* Third Reality 3RSB02015Z: add `totalCycleTimes` and `lastRemainingBatteryPercentage` ([#10594](https://github.com/Koenkk/zigbee-herdsman-converters/issues/10594)) ([e146e7a](https://github.com/Koenkk/zigbee-herdsman-converters/commit/e146e7aaf906574145c5ea8b0b94643cd79eac73))
+* Tuya TS011F_plug: use polling appVersion 192  ([#10574](https://github.com/Koenkk/zigbee-herdsman-converters/issues/10574)) ([2894cb0](https://github.com/Koenkk/zigbee-herdsman-converters/commit/2894cb0f314786ff464147175b3b21f56f3080b3))
+
 ## [25.57.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v25.56.0...v25.57.0) (2025-10-30)
 
 
